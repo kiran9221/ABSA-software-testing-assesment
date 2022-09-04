@@ -1,6 +1,9 @@
-Selenium automation setup
+Selenium automation setup explanation
+
 pre-requisites
-Mmaven, testng plugin installed in eclipse
+
+Maven, testng plugin installed in eclipse
+
 add automation testing solution folder to your eclipse repositry
 
 how to run maven project in eclipse
@@ -13,6 +16,7 @@ how to run maven project in eclipse
 6.it will run the file
 
  how to run test script
+
 1.expand maven tree structure 
 2.click on src/test
 3.you will see order.java (plenty of options to run java file)
