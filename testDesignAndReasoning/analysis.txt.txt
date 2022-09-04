@@ -1,0 +1,32 @@
+Answer 1
+
+   Product owner
+1.	can we have multiple client administrators 
+2.	Can an administrator create another administrator
+3.	Are there any rules around what a user can access 
+4.	Are users restricted to a specific administrator 
+Design team
+1.	Compatibility across various browsers if applicable 
+2.	Rendering of the page with varying sizes
+3.	Error, success and information messages 
+4.	Validation messages on the fields
+5.	Journeys 
+Technical team 
+1.	How would the interphase differentiate a user and a admin
+2.	How is authentication of the users validated 
+
+Answer 2
+I would like to have a simple single sign on interphase for all the user types. Users can login with valid credentials and post login we will have an entry screen based upon the type of user that have logged in and permissions assigned to them.
+If a admin have logged in present him with a simple UI to see the list of existing users and next to every user present then options to either manage or delete.
+Is it’s not an admin user present him with the options or features that he is allowed to.
+
+Answer 3
+Based on my analysis the complete solution if feasible 
+Below are the modules if would be automating
+1.	Authentication
+2.	Display users 
+3.	Add user
+4.	Manage user
+5.	Delete user
+6.	Client login and validate his permissions
+
